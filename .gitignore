@@ -1,0 +1,14 @@
+*.x
+*.so
+*.o
+*.mod
+*.aux
+*.pdf
+*.log
+*~
+
+.build/
+.sconsign.dblite
+doc/html/
+doc/latex/
+warnlog.dxy
