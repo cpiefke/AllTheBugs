@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 *.x
 *.so
 *.o
@@ -8,23 +7,10 @@
 *.log
 *~
 
+*#*
+
 .build/
 .sconsign.dblite
 doc/html/
 doc/latex/
 warnlog.dxy
-=======
-# Compiled Object files
-*.slo
-*.lo
-*.o
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
->>>>>>> a2dc24a965cf507c48aff9d5c57c06ef7f3c1ba2
