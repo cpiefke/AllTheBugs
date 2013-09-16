@@ -1,5 +1,6 @@
 *.x
 *.so
+*.os
 *.o
 *.mod
 *.aux

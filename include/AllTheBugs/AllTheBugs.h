@@ -14,7 +14,7 @@ class AllTheBugs {
   int OnExecute();
 
  public:
-  bool OnInit();
+  bool OnSetup();
 
   void OnEvent(SDL_Event* Event);
 

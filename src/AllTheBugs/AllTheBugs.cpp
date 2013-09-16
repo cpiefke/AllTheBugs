@@ -1,18 +1,11 @@
-#include "AllTheBugs.h"
-
-AllTheBugs::AllTheBugs() {
-}
-
-int AllTheBugs::OnExecute() {
-  return 0;
-}
+#include "../../include/AllTheBugs/AllTheBugs.h"
 
 AllTheBugs::AllTheBugs() {
   Running = true;
 }
  
 int AllTheBugs::OnExecute() {
-  if(OnInit() == false) {
+  if(OnSetup() == false) {
     return -1;
   }
  
